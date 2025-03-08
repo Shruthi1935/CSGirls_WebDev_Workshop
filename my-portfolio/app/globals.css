@@ -1,0 +1,35 @@
+/* This ensures that Tailwind CSS styles are available in this stylesheet. */
+@import "tailwindcss"; 
+
+/* global.css: This file is where the universal styling sits */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Adding custom fonts */
+@font-face {
+  font-family: 'Camellia';
+  src: url('/fonts/Camellia.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SugarMagic';
+  src: url('/fonts/SugarMagic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Create utility classes for simplicity */
+.font-camellia {
+  font-family: 'Camellia', sans-serif;
+}
+
+.font-sugarmagic {
+  font-family: 'SugarMagic', cursive;
+}
+
+
+

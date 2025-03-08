@@ -1,0 +1,40 @@
+NOTES:
+
+layout.js:
+- change meta data to 'personal portfolio'
+
+
+global.css:
+- delete everything except tailwind import
+
+
+page.js:
+- delete everything except imports
+
+
+VS Code Extensions:
+- IntelliSense: autocompleting, hover previews, helpful with syntax
+- Prettier
+
+
+public folder:
+- this is where you keep images you want to use on the frontend
+- also keep custom fonts here
+
+    fonts folder:
+    - create new folder within public
+    - import font files (rename if needed)
+    - inside globals.css, add font setup/classes
+    <>
+      <div className="bg-sky-300 m-12 p-32 text-[#ffffff] text-center text-4xl font-bold">
+        Hello World! <br /> All made with Tailwind CSS!
+      </div>
+      
+      <div className="bg-sky-300 m-12 p-32 text-[#ffffff] text-center text-4xl font-bold font-camellia">
+          Hello World! <br /> All made with Tailwind CSS!
+      </div>
+
+      <div className="bg-sky-300 m-12 p-32 text-[#ffffff] text-center text-4xl font-bold font-sugarmagic">
+          Hello World <br /> All made with Tailwind CSS
+      </div>
+    </>
