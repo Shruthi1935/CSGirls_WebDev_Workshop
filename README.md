@@ -1,14 +1,13 @@
-# **CS Girls Web Dev Workshop – Modern Personal Portfolio** 🚀
+# **CS Girls Web Dev Workshop – Modern Personal Portfolio**
 
 Welcome to the **CS Girls Web Dev Workshop!**
 In this workshop, we will be building a **modern personal portfolio** using  **React and Tailwind CSS**. This hands-on session will introduce students to web development fundamentals, including  **HTML, CSS, JavaScript, React, and Tailwind CSS.**
 
 ## 📌 **What You'll Learn**
 
-By the end of this workshop, you will:
-✅ Understand the basics of **HTML, CSS, and JavaScript** in web development.
-✅ Learn how to **set up a React project** using `create-next-app`.
-✅ Use **Tailwind CSS** for faster development.✅ Create and customize a  **personal portfolio website**.
+* Understand the basics of **HTML, Tailwind CSS, and JavaScript** in web development.
+* Learn how to **set up a React project** using `create-next-app`.
+* Create and customize a  **personal portfolio website**.
 
 ## 🛠 **Tech Stack**
 

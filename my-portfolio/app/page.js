@@ -79,7 +79,6 @@ export default function Home() {
     
   ];
 
-
   return (
     <>
       <section id="Landing Page" className="w-screen h-screen bg-white">
