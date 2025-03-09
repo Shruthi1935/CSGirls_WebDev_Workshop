@@ -29,23 +29,23 @@ export const Timeline = ({
       className="w-full bg-white font-sans md:px-10"
       ref={containerRef}>
      
-      <div ref={ref} className="relative pb-20">
+      <div ref={ref} className="relative pb-20 bg-white">
         {data.map((item, index) => (
           <div key={index} className="flex justify-start pt-10 md:pt-40 md:gap-10">
             <div
-              className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start lg:max-w-sm md:w-full">
+              className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start bg-white">
               <div
-                className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
+                className="h-10 w-10 absolute left-3 md:left-3 rounded-full bg-black dark:bg-black flex items-center justify-center">
                 <div
-                  className="h-4 w-4 rounded-full bg-black dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
+                  className="h-8 w-8 rounded-full bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <h3
-                className="hidden md:block text-xl md:pl-20 md:text-5xl font-chillax text-black dark:text-neutral-500 ">
+                className="hidden xl:block text-xl md:pl-20 md:text-5xl font-chillax text-black dark:text-neutral-500 ">
                 {item.title}
               </h3>
             </div>
 
-            <div className="relative pl-20 pr-4 md:pl-4 w-full">
+            <div className="relative pl-20 pr-4 md:pl-4 bg-white ml-auto">
               <h3
                 className="md:hidden block text-2xl mb-4 text-left font-chillax text-black dark:text-neutral-500">
                 {item.title}
@@ -64,7 +64,7 @@ export const Timeline = ({
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[6px] bg-gradient-to-t from-black via-black to-black from-[0%] via-[10%] rounded-full" />
+            className="absolute inset-x-0 top-0  w-[6px] bg-gradient-to-t from-black via-black to-transparent from-[0%] via-[10%] rounded-full" />
         </div>
       </div>
     </div>)
