@@ -14,7 +14,7 @@ export default function Home() {
       title: "SKILLS & TECHNOLOGIES",
       content: (
         <section id="Skills" className="">
-          <div className="flex flex-col space-y-16 py-24 pr-16 ml-auto w-max">
+          <div className="flex flex-col space-y-16 py-24 pr-8 ml-auto w-max">
             <div className="flex flex-row space-x-20"> 
               <SiPython className="text-black text-5xl" />
               <SiCplusplus className="text-black text-5xl" />
@@ -55,8 +55,24 @@ export default function Home() {
     {
       title: "PROJECTS",
       content: (
-        <section id="Projects" className="bg-purple-200">
-          
+        <section id="Projects" className="">
+          <div className="flex flex-col space-y-12 pr-8 ml-auto w-max"> 
+            <div className="flex flex-row space-x-12"> 
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+            </div>
+            <div className="flex flex-row space-x-12"> 
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+            </div>
+            <div className="flex flex-row space-x-12"> 
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+            </div>
+          </div>
         </section>
       ),
     },
