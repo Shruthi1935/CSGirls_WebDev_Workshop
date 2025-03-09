@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin, FaFileAlt} from "react-icons/fa";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
-import Image from "next/image";
+import "./globals.css";
 
 
 export default function Home() {
@@ -11,16 +11,7 @@ export default function Home() {
       title: "SKILLS & TECHNOLOGIES",
       content: (
         <section id="Skills" className="bg-blue-200">
-          <div className="flex flex-col space-y-12 p-24"> 
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-          </div>
+          
         </section>
       ),
     },
@@ -28,17 +19,8 @@ export default function Home() {
     {
       title: "PROJECTS",
       content: (
-        <section id="Skills" className="bg-purple-200">
-          <div className="flex flex-col space-y-12 p-24"> 
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-          </div>
+        <section id="Projects" className="bg-purple-200">
+          
         </section>
       ),
     },
@@ -46,17 +28,8 @@ export default function Home() {
     {
       title: "ABOUT ME",
       content: (
-        <section id="Skills" className="bg-green-200">
-          <div className="flex flex-col space-y-12 p-24"> 
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-            <div id="sGreeting" className="font-chillax text-2xl"> heyy </div>
-            <div id="Name" className="font-chillax text-2xl"> shruthi <br/> yenamagandla </div>
-          </div>
+        <section id="AboutMe" className="bg-green-200">
+          
         </section>
       ),
     },
@@ -70,9 +43,9 @@ export default function Home() {
           <div id="Navbar" className="w-screen top-0 py-5 px-18 border-black border-b-2"> 
             <div id="SectionLinks" className="flex flex-row space-x-32 justify-between">
               <div className="flex flex-row space-x-16"> 
-                <a href="#Skills" target="_blank" className="text-lg font-chillax"> SKILLS </a>
-                <a href="#Projects" target="_blank" className="text-lg font-chillax"> PROJECTS </a>
-                <a href="#AboutMe" target="_blank" className="text-lg font-chillax"> ABOUT ME </a>
+                <a href="#Skills" className="text-lg font-chillax"> SKILLS </a>
+                <a href="#Projects" className="text-lg font-chillax"> PROJECTS </a>
+                <a href="#AboutMe" className="text-lg font-chillax"> ABOUT ME </a>
                 <a href="/resume.pdf" download className="text-lg font-chillax"> RESUME </a>
               </div>
               <div id="SocialLinks" className="flex flex-row space-x-6"> 
