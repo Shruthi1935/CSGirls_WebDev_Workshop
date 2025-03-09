@@ -1,7 +1,10 @@
-import { FaGithub, FaLinkedin, FaFileAlt} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileAlt, FaGit} from "react-icons/fa";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import "./globals.css";
+
+import { SiPython, SiCplusplus, SiR, SiRstudioide, SiJavascript, SiTypescript, SiSqlite, SiHtml5, SiCss3, SiTailwindcss, SiReact, SiExpress, SiNodedotjs, SiNextdotjs, SiVite, SiMysql, SiFirebase, SiVercel, SiGit, SiGithub, SiNpm, SiFigma} from "react-icons/si";
+
 
 
 export default function Home() {
@@ -10,7 +13,41 @@ export default function Home() {
     {
       title: "SKILLS & TECHNOLOGIES",
       content: (
-        <section id="Skills" className="bg-blue-200">
+        <section id="Skills" className="">
+          <div className="flex flex-col space-y-16 py-24 pl-96">
+            <div className="flex flex-row space-x-16"> 
+              <SiPython className="text-black text-5xl" />
+              <SiCplusplus className="text-black text-5xl" />
+              <SiR className="text-black text-5xl" />
+              <SiRstudioide className="text-black text-5xl" />
+              <SiJavascript className="text-black text-5xl" />            
+            </div>
+            <div className="flex flex-row space-x-16"> 
+              <SiTypescript className="text-black text-5xl" />
+              <SiSqlite className="text-black text-5xl" />
+              <SiHtml5 className="text-black text-5xl" />
+              <SiCss3 className="text-black text-5xl" />
+              <SiTailwindcss className="text-black text-5xl" />            
+            </div>
+            <div className="flex flex-row space-x-16"> 
+              <SiReact className="text-black text-5xl" />
+              <SiExpress className="text-black text-5xl" />
+              <SiNodedotjs className="text-black text-5xl" />
+              <SiNextdotjs className="text-black text-5xl" />
+              <SiVite className="text-black text-5xl" />            
+            </div>
+            <div className="flex flex-row space-x-16"> 
+              <SiMysql className="text-black text-5xl" />
+              <SiFirebase className="text-black text-5xl" />
+              <SiVercel className="text-black text-5xl" />
+              <SiGit className="text-black text-5xl" />
+              <SiGithub className="text-black text-5xl" />            
+            </div>
+            <div className="flex flex-row space-x-16"> 
+              <SiNpm className="text-black text-5xl" />
+              <SiFigma className="text-black text-5xl" />     
+            </div>
+          </div>
           
         </section>
       ),

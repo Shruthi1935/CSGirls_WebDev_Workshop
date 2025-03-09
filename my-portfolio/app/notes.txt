@@ -16,6 +16,7 @@ VS Code Extensions:
 - IntelliSense: autocompleting, hover previews, helpful with syntax
 - Prettier
 
+
 Icons:
 -  npm install react-icons
 - npm install @heroicons/react
@@ -48,6 +49,7 @@ Landing Page:
 - first work on navbar 
 - then landing page content
 
+
 Timeline:
 - timeline: npx shadcn@latest add https://ui.aceternity.com/registry/timeline.json
 - this creates components.json, lib/utils.js, and components/ui/componentName.jsx 
@@ -56,3 +58,8 @@ Timeline:
 - npm install tailwindcss-animate
 - paste timeline.jsx file & globals.css
 - content within timeline goes within the data array in page.js
+
+
+Skills and Technology Section:
+- npm install react-icons
+- import { DiJavascript, DiReact, DiPython, DiNodejs, DiGithubBadge } from "react-icons/di";
