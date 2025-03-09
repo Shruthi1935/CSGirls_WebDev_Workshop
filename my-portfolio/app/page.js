@@ -14,41 +14,40 @@ export default function Home() {
       title: "SKILLS & TECHNOLOGIES",
       content: (
         <section id="Skills" className="">
-          <div className="flex flex-col space-y-16 py-24 pl-96">
-            <div className="flex flex-row space-x-16"> 
+          <div className="flex flex-col space-y-16 py-24 pr-16 ml-auto w-max">
+            <div className="flex flex-row space-x-20"> 
               <SiPython className="text-black text-5xl" />
               <SiCplusplus className="text-black text-5xl" />
               <SiR className="text-black text-5xl" />
               <SiRstudioide className="text-black text-5xl" />
               <SiJavascript className="text-black text-5xl" />            
             </div>
-            <div className="flex flex-row space-x-16"> 
+            <div className="flex flex-row space-x-20"> 
               <SiTypescript className="text-black text-5xl" />
               <SiSqlite className="text-black text-5xl" />
               <SiHtml5 className="text-black text-5xl" />
               <SiCss3 className="text-black text-5xl" />
               <SiTailwindcss className="text-black text-5xl" />            
             </div>
-            <div className="flex flex-row space-x-16"> 
+            <div className="flex flex-row space-x-20"> 
               <SiReact className="text-black text-5xl" />
               <SiExpress className="text-black text-5xl" />
               <SiNodedotjs className="text-black text-5xl" />
               <SiNextdotjs className="text-black text-5xl" />
               <SiVite className="text-black text-5xl" />            
             </div>
-            <div className="flex flex-row space-x-16"> 
+            <div className="flex flex-row space-x-20"> 
               <SiMysql className="text-black text-5xl" />
               <SiFirebase className="text-black text-5xl" />
               <SiVercel className="text-black text-5xl" />
               <SiGit className="text-black text-5xl" />
               <SiGithub className="text-black text-5xl" />            
             </div>
-            <div className="flex flex-row space-x-16"> 
+            <div className="flex flex-row space-x-20"> 
               <SiNpm className="text-black text-5xl" />
               <SiFigma className="text-black text-5xl" />     
             </div>
           </div>
-          
         </section>
       ),
     },
