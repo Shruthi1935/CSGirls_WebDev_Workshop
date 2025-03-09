@@ -16,36 +16,36 @@ export default function Home() {
         <section id="Skills" className="">
           <div className="flex flex-col space-y-16 py-24 pr-8 ml-auto w-max">
             <div className="flex flex-row space-x-20"> 
-              <SiPython className="text-black text-5xl" />
-              <SiCplusplus className="text-black text-5xl" />
-              <SiR className="text-black text-5xl" />
-              <SiRstudioide className="text-black text-5xl" />
-              <SiJavascript className="text-black text-5xl" />            
+              <SiPython className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-400" />
+              <SiCplusplus className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiR className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiRstudioide className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiJavascript className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />            
             </div>
             <div className="flex flex-row space-x-20"> 
-              <SiTypescript className="text-black text-5xl" />
-              <SiSqlite className="text-black text-5xl" />
-              <SiHtml5 className="text-black text-5xl" />
-              <SiCss3 className="text-black text-5xl" />
-              <SiTailwindcss className="text-black text-5xl" />            
+              <SiTypescript className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiSqlite className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiHtml5 className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiCss3 className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiTailwindcss className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />            
             </div>
             <div className="flex flex-row space-x-20"> 
-              <SiReact className="text-black text-5xl" />
-              <SiExpress className="text-black text-5xl" />
-              <SiNodedotjs className="text-black text-5xl" />
-              <SiNextdotjs className="text-black text-5xl" />
-              <SiVite className="text-black text-5xl" />            
+              <SiReact className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiExpress className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiNodedotjs className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiNextdotjs className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiVite className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />            
             </div>
             <div className="flex flex-row space-x-20"> 
-              <SiMysql className="text-black text-5xl" />
-              <SiFirebase className="text-black text-5xl" />
-              <SiVercel className="text-black text-5xl" />
-              <SiGit className="text-black text-5xl" />
-              <SiGithub className="text-black text-5xl" />            
+              <SiMysql className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiFirebase className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiVercel className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiGit className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiGithub className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />            
             </div>
             <div className="flex flex-row space-x-20"> 
-              <SiNpm className="text-black text-5xl" />
-              <SiFigma className="text-black text-5xl" />     
+              <SiNpm className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />
+              <SiFigma className="text-black text-5xl cursor-pointer hover:-translate-y-3 duration-300 hover:text-amber-500" />     
             </div>
           </div>
         </section>
@@ -58,33 +58,26 @@ export default function Home() {
         <section id="Projects" className="">
           <div className="flex flex-col space-y-12 pr-8 ml-auto w-max"> 
             <div className="flex flex-row space-x-12"> 
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
             </div>
             <div className="flex flex-row space-x-12"> 
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
             </div>
             <div className="flex flex-row space-x-12"> 
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
             </div>
           </div>
         </section>
       ),
     },
 
-    {
-      title: "ABOUT ME",
-      content: (
-        <section id="AboutMe" className="bg-green-200">
-          
-        </section>
-      ),
-    },
+    
   ];
 
 
