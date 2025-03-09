@@ -2,7 +2,6 @@ import { FaGithub, FaLinkedin, FaFileAlt, FaFile} from "react-icons/fa";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import "./globals.css";
-
 import { SiPython, SiCplusplus, SiR, SiRstudioide, SiJavascript, SiTypescript, SiSqlite, SiHtml5, SiCss3, SiTailwindcss, SiReact, SiExpress, SiNodedotjs, SiNextdotjs, SiVite, SiMysql, SiFirebase, SiVercel, SiGit, SiGithub, SiNpm, SiFigma} from "react-icons/si";
 
 
@@ -58,25 +57,42 @@ export default function Home() {
         <section id="Projects" className="">
           <div className="flex flex-col space-y-8 pr-8 ml-auto w-max"> 
             <div className="flex flex-row space-x-8"> 
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
             </div>
             <div className="flex flex-row space-x-8"> 
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
             </div>
             <div className="flex flex-row space-x-8"> 
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
-              <div className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"> Hey </div>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
+              <a href="https://www.linkedin.com/in/shruthi-yenamagandla-23883428b/" target="_blank"> 
+                <img src="/globe.svg" alt="Description" className="bg-gray-200 h-64 w-64 rounded-md cursor-pointer hover:scale-110 duration-500"/>
+              </a>
             </div>
           </div>
         </section>
       ),
-    },
-    
+    }, 
   ];
 
   return (
