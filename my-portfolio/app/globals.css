@@ -22,6 +22,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Chillax';
+  src: url('/fonts/Chillax.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Create utility classes for simplicity */
 .font-camellia {
   font-family: 'Camellia', sans-serif;
@@ -29,6 +36,10 @@
 
 .font-sugarmagic {
   font-family: 'SugarMagic', cursive;
+}
+
+.font-chillax {
+  font-family: 'Chillax', sans-serif;
 }
 
 

@@ -16,6 +16,10 @@ VS Code Extensions:
 - IntelliSense: autocompleting, hover previews, helpful with syntax
 - Prettier
 
+Icons:
+-  npm install react-icons
+- npm install @heroicons/react
+
 
 public folder:
 - this is where you keep images you want to use on the frontend
@@ -38,3 +42,8 @@ public folder:
           Hello World <br /> All made with Tailwind CSS
       </div>
     </>
+
+
+Landing Page:
+- first work on navbar 
+- then landing page content
