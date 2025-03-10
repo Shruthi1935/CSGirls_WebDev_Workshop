@@ -8,7 +8,7 @@ export default function PortfolioPage() {
         <div className="font-sugarmagic text-8xl text-black px-24 pt-20 pb-5"> Personal Portfolio</div>
         <div className="flex flex-row space-x-12 mx-24">
             <a href="https://shruthi1935.github.io/Personal-Portfolio/" target="_blank"> 
-                <img src="/coogify2.png" alt="Description" className="h-150 w-250 ml-auto rounded-md cursor-pointer hover:scale-101 duration-400"/>
+                <img src="/portfolio2.png" alt="Description" className="h-150 w-250 ml-auto rounded-md cursor-pointer hover:scale-101 duration-400"/>
             </a>
             <section className="space-y-8">
                 <div className="font-chillax text-2xl text-black"> Description </div>

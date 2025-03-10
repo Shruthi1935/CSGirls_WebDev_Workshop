@@ -61,23 +61,23 @@ export default function Home() {
               <Link href="/coogify">
                 <img src="/coogify.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
-              <Link href="/portfolioOG">
+              <Link href="/portfolio">
                 <img src="/portfolio.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
             </div>
             <div className="flex flex-row space-x-6"> 
-              <Link href="/about"> 
+              <Link href="/volunteervault"> 
                 <img src="/volunteervault2.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
-              <Link href="/about">
+              <Link href="/clarityai">
                 <img src="/clarityai.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
             </div>
             <div className="flex flex-row space-x-6"> 
-              <Link href="/about">
+              <Link href="/ellie">
                 <img src="/ellie1.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
-              <Link href="/about"> 
+              <Link href="/inventorytracking"> 
                 <img src="/inventory3.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
           </div>
 
           <div id="LandingPageContent">
-            <div className="flex flex-col space-y-72 p-18"> 
+            <div className="flex flex-col space-y-64 p-18"> 
               <div id="Greeting" className="font-camellia text-8xl self-end p-8 hover:scale-120 duration-700"> heyy </div>
               <div id="Name" className="font-sugarmagic text-8xl"> shruthi <br/> yenamagandla </div>
             </div>
