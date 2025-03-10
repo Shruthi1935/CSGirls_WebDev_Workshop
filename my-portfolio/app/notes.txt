@@ -63,3 +63,7 @@ Timeline:
 Skills and Technology Section:
 - npm install react-icons
 - import { DiJavascript, DiReact, DiPython, DiNodejs, DiGithubBadge } from "react-icons/di";
+
+Navigation:
+- import Link from "next/link";
+- use <Link href="/about"> </Link> to navigate from one page to another
