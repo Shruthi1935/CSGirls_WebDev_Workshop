@@ -67,3 +67,13 @@ Skills and Technology Section:
 Navigation:
 - import Link from "next/link";
 - use <Link href="/about"> </Link> to navigate from one page to another
+
+Deployment:
+- install vercel: sudo npm install -g vercel
+- navigate to project directory: cd my-portfolio
+- vercel: this connects project to vercel
+- if any issues, fix them and run: npm run build
+- then deploy project: vercel
+- test temporary preview links 
+- then deploy to production: vercel --prod
+

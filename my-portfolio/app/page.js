@@ -4,6 +4,7 @@ import { Timeline } from "@/components/ui/timeline";
 import "./globals.css";
 import { SiPython, SiCplusplus, SiR, SiRstudioide, SiJavascript, SiTypescript, SiSqlite, SiHtml5, SiCss3, SiTailwindcss, SiReact, SiExpress, SiNodedotjs, SiNextdotjs, SiVite, SiMysql, SiFirebase, SiVercel, SiGit, SiGithub, SiNpm, SiFigma} from "react-icons/si";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -59,26 +60,26 @@ export default function Home() {
           <div className="flex flex-col space-y-6 pr-8 ml-auto w-max"> 
             <div className="flex flex-row space-x-6"> 
               <Link href="/coogify">
-                <img src="/coogify.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
+                <Image src="/coogify.png" alt="Description" width={200} height={150} className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
               <Link href="/portfolio">
-                <img src="/portfolio.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
+                <Image src="/portfolio.png" alt="Description" width={200} height={150}className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
             </div>
             <div className="flex flex-row space-x-6"> 
               <Link href="/volunteervault"> 
-                <img src="/volunteervault2.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
+                <Image src="/volunteervault2.png" alt="Description" width={200} height={150} className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
               <Link href="/clarityai">
-                <img src="/clarityai.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
+                <Image src="/clarityai.png" alt="Description" width={200} height={150} className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
             </div>
             <div className="flex flex-row space-x-6"> 
               <Link href="/ellie">
-                <img src="/ellie1.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
+                <Image src="/ellie1.png" alt="Description" width={200} height={150} className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
               <Link href="/inventorytracking"> 
-                <img src="/inventory3.png" alt="Description" className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
+                <Image src="/inventory3.png" alt="Description" width={200} height={150} className="bg-gray-200 h-56 w-96 rounded-md cursor-pointer hover:scale-105 duration-500"/>
               </Link> 
             </div>
           </div>
@@ -111,7 +112,7 @@ export default function Home() {
           </div>
 
           <div id="LandingPageContent">
-            <div className="flex flex-col space-y-64 p-18"> 
+            <div className="flex flex-col space-y-36 p-18"> 
               <div id="Greeting" className="font-camellia text-8xl self-end p-8 hover:scale-120 duration-700"> heyy </div>
               <div id="Name" className="font-sugarmagic text-8xl"> shruthi <br/> yenamagandla </div>
             </div>
@@ -130,7 +131,7 @@ export default function Home() {
       <section id="AboutMe" className="w-screen h-screen"> 
         <div className="font-sugarmagic text-8xl text-black px-30 pt-42 mb-8"> about me </div>
         <div className="font-chillax text-xl text-black w-screen px-30 leading-10 mb-10"> 
-          Nice to see you! I'm a junior at the University of Houston, <br/> pursuing <span className="underline">Computer Science </span> with a <span className="underline"> Mathematics</span> minor. <br/>
+          Nice to see you! I am a junior at the University of Houston, <br/> pursuing <span className="underline">Computer Science </span> with a <span className="underline"> Mathematics</span> minor. <br/>
           My projects and passion work showcase my curiosity, growth, <br/> and dedication — shaped by incredible professors and hands-on <br/> experience.
           Explore my journey, and feel free to check out my <br/> <div className="font-extrabold"> resume & socials below! </div>
         </div>

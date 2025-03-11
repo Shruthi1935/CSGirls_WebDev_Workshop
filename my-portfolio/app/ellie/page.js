@@ -1,14 +1,15 @@
 import { SiPython, SiCplusplus, SiR, SiRstudioide, SiJavascript, SiTypescript, SiSqlite, SiHtml5, SiCss3, SiTailwindcss, SiReact, SiExpress, SiNodedotjs, SiNextdotjs, SiVite, SiMysql, SiFirebase, SiVercel, SiGit, SiGithub, SiNpm, SiFigma} from "react-icons/si";
 import { FaGithub, FaLinkedin, FaFileAlt, FaFile} from "react-icons/fa";
+import Image from "next/image";
 
-export default function PortfolioPage() {
+export default function CoogifyPage() {
     return (
-      <section id="PortfolioPage">  
+      <section id="CoogifyPage">  
       <div className="flex flex-col space-y-8"> 
         <div className="font-sugarmagic text-8xl text-black px-24 pt-20 pb-5"> Ellie </div>
         <div className="flex flex-row space-x-12 mx-24">
             <a href="https://github.com/Shruthi1935/tamuhack_2025" target="_blank"> 
-                <img src="ellie1.png" alt="Description" className="h-150 w-250 ml-auto rounded-md cursor-pointer hover:scale-101 duration-400"/>
+                <Image src="/ellie3.png" alt="Description" width={1100} height={150} className="ml-auto rounded-md cursor-pointer hover:scale-101 duration-400"/>
             </a>
             <section className="space-y-8">
                 <div className="font-chillax text-2xl text-black"> Description </div>
