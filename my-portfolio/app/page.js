@@ -113,7 +113,7 @@ export default function Home() {
 
           <div id="LandingPageContent">
             <div className="flex flex-col space-y-36 p-18"> 
-              <div id="Greeting" className="font-camellia text-8xl self-end p-8 hover:scale-120 duration-700"> hello </div>
+              <div id="Greeting" className="font-camellia text-8xl self-end p-8 hover:scale-120 duration-700"> hello there </div>
               <div id="Name" className="font-sugarmagic text-8xl"> shruthi <br/> yenamagandla </div>
             </div>
           </div>
