@@ -76,4 +76,6 @@ Deployment:
 - then deploy project: vercel
 - test temporary preview links 
 - then deploy to production: vercel --prod
+- connect to github
+- after changes made on your local host, run vercel --prod to redeploy
 
